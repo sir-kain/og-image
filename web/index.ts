@@ -142,14 +142,14 @@ const markdownOptions: DropdownOption[] = [
 ];
 
 const imageLightOptions: DropdownOption[] = [
-    { text: 'Vercel', value: 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-black.svg' },
+    { text: 'Map Senegal', value: 'https://res.cloudinary.com/dpdwdstqt/image/upload/v1524010315/senegalflag.png' },
     { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-black-logo.svg' },
     { text: 'Hyper', value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-color-logo.svg' },
 ];
 
 const imageDarkOptions: DropdownOption[] = [
 
-    { text: 'Vercel', value: 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-white.svg' },
+    { text: 'Map Senegal', value: 'https://res.cloudinary.com/dpdwdstqt/image/upload/v1524010315/senegalflag.png' },
     { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-white-logo.svg' },
     { text: 'Hyper', value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-bw-logo.svg' },
 ];
@@ -205,7 +205,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
         fontSize = '100px',
         theme = 'light',
         md = true,
-        text = '**Hello** World',
+        text = '**Sénégal Services**',
         images=[imageLightOptions[0].value],
         widths=[],
         heights=[],
